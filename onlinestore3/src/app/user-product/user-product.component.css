@@ -1,0 +1,24 @@
+#blink-text{
+    animation-name:blink;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:Infinite;
+}
+@keyframes blink{
+    0%{color:purple;}
+    50%{color:white;}
+    100%{color:purple;}
+
+    }
+    .form-control{
+        width: 300px;
+        margin:15px 500px;
+    
+    }
+    #product-img{
+        max-height:300px;
+        max-width:300px
+    }
+    .card-title{
+        color: #007185;
+    }
